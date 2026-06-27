@@ -1,12 +1,6 @@
-﻿# SaaS — AI-Powered Lead Capture & Automation for 
+﻿AI-Powered Lead Capture & Automation for 
 
 This is a high-performance HProperties software-as-a-service application built with a modern React and Vite frontend. The backend infrastructure utilizes self-hosted n8n and Make.com automation engines to instantly extract lead metadata from Facebook Ads and WhatsApp via secure webhooks. By routing unstructured inquiries through the ChatGPT API, the system automatically qualifies buyers and syncs structured data directly into Google Spreadsheets and Airtable.
-
-VITE_N8N_WEBHOOK_URL: This is a direct telephone line from your website to your automation server. When a user types test@gmail.com and clicks "Get estimate," this URL instantly grabs that email and shoots it to your backend workflow.
-
-VITE_AIRTABLE_API_KEY: This is a security password. It allows your code or automation workflow to open up your Airtable spreadsheet securely, create a new row, and save the lead's email permanently.
-
-VITE_OPENAI_API_KEY: This is the brain link. It connects your app to ChatGPT so it can read user messages, guess property values based on data, or draft automated WhatsApp reply texts.
 
 Problem:
 
